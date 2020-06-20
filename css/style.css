@@ -1,0 +1,699 @@
+@charset "utf-8";
+/* CSS Document */
+
+html , body
+{
+	font-family: Verdana, Geneva, sans-serif;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	letter-spacing:3px;
+}
+
+.fade_in
+{
+	opacity: 1;
+}
+
+
+#loading
+{
+	top: 0;
+	left: 0;
+	position:fixed;
+	z-index: 500;
+	width: 100%;
+	height: 100%;
+	background-color:dimgrey;
+}
+
+.index
+{
+	position: relative;
+	width: 100%;
+	
+}
+
+
+.index_bg
+{
+	position: absolute;
+	width: 100%;
+	z-index: 0;
+}
+
+.index_behind
+{
+	position:absolute;
+	z-index: 1;
+	width: 100%;
+
+}
+
+.index_front_moun
+{
+	position:absolute;
+	z-index: 2;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	
+}
+
+.index_land
+{
+	position:absolute;
+	z-index: 5;
+	width: 100%;
+
+}
+
+.index_front_cloud
+{
+	position:absolute;
+	z-index: 4;
+	width: 100%;
+
+}
+
+
+.index_sparta
+{
+	position: relative;
+	z-index: 4;
+	width: 100%;
+}
+
+.index_title
+{
+	font-size:32px;
+	position: absolute;
+	z-index: 10;
+	left: 50%;
+	top:30%;
+	color:#390809;
+	
+}
+
+.title01
+{
+	line-height: 30px;
+	text-align: center;
+	margin: -5px 0px;
+	padding: 20px 0px;
+	position: relative;
+	z-index: 10;
+	width: 100%;
+	height: 500px;
+	background-color: bisque;
+}
+
+.title01 > p
+{
+	padding: 180px 10px;
+	font-size: 16px;
+	color: #390809;
+}
+
+.page01_bg
+{
+	position: absolute;
+	width: 100%;
+}
+
+
+#page01_cloud
+{
+	position: absolute;
+	width: 100%;
+}
+
+.page01_behind
+{
+	position: absolute;
+	width: 100%;
+}
+
+#page01_river
+{
+	position: absolute;
+	width: 100%;
+}
+
+.page01-front_moun
+{
+	position: absolute;
+	width: 100%;
+}
+
+.page01_anime_trigger
+{
+	position: absolute;
+	width: 100%;
+}
+
+#page01_sparta
+{
+	position: absolute;
+	width: 100%;
+}
+
+.page01_front_scene
+{
+	position: relative;
+	width: 100%;
+}
+
+#page01_text_div
+{
+	width: 40%;
+	position: absolute;
+	margin-top: 5%;
+	padding: 0% 10px;
+	left: 50%;
+	z-index: 100;
+	opacity: 0;
+}
+
+.page01_text_h2
+{
+	color: #390809;
+	font-size: 20px;
+	transform: translateX(-10px);
+	transition: all 1s ease-out;
+	opacity: 0;
+}
+
+.page01_text_h2.fade_in
+{
+	opacity: 1;
+	transform: translateX(0);
+}
+
+.page01_text_p
+{
+	color: #390809;
+	font-size: 14px;
+	transform: translateX(-10px);
+	transition: all 1s ease-out;
+	opacity: 0;
+	transition-delay: 0.5s;
+}
+
+.page01_text_p.p_fade
+{
+	transform: translateX(0);
+	opacity: 1;
+}
+
+.page01_text_btn , .page02_text_btn , .page03_text_btn
+{
+	padding-bottom:10px;
+	text-align: center;
+	margin-top: 10%;
+	left: 60%;
+	width: 20%;
+	position: absolute;
+	z-index: 100;
+	background-color: aliceblue;
+	opacity: 0.5;
+	border-radius: 10px;
+	font-size: 8px;
+	user-select: none;
+	display: none;
+}
+
+.page02_text_btn
+{
+	padding-bottom:10px;
+	text-align: center;
+	margin-top: 10%;
+	left: 60%;
+	width: 20%;
+	position: absolute;
+	z-index: 100;
+	background-color:wheat;
+	opacity: 0.5;
+	border-radius: 10px;
+	font-size: 8px;
+	user-select: none;
+	display: none;
+}
+
+.page03_text_btn
+{
+	padding-bottom:9px;
+	text-align: center;
+	margin-top: 10%;
+	left: 60%;
+	width: 20%;
+	position: absolute;
+	z-index: 100;
+	background-color:wheat;
+	opacity: 0.5;
+	border-radius: 10px;
+	font-size: 8px;
+	user-select: none;
+	display: none;
+}
+
+
+.title02
+{
+	line-height: 400px;
+	text-align: center;
+	margin: -5px 0px;
+	padding: 20px 0px;
+	position: relative;
+	z-index: 10;
+	width: 100%;
+	height: 500px;
+	background-color:#531D03;
+}
+
+.title02 > p
+{
+	font-size: 18px;
+	color:antiquewhite;
+}
+
+.page02_bg
+{
+	position: absolute;
+	width: 100%;
+}
+
+#page02_cloud
+{
+	position: absolute;
+	width: 100%;
+}
+
+.page02_behind
+{
+	position: absolute;
+	width: 100%;
+}
+
+.page02_front
+{
+	position:absolute;
+	width: 100%;
+}
+
+#page02_sparta
+{
+	position: absolute;
+	width: 100%;
+	opacity: 0;
+
+}
+
+
+#page02_start
+{
+	position: absolute;
+	width: 100%;
+}
+
+#page02_enemy
+{
+	position:relative;
+	width: 100%;
+}
+
+#page02_text_div
+{
+	z-index: 100;
+	position: absolute;
+	left: 50%;
+	width: 40%;
+	margin-top: 5%;
+	color:antiquewhite;
+}
+
+.page02_text_h2
+{
+	font-size: 20px;
+	transform: translateX(-10px);
+	transition: all 1s ease-out;
+	opacity: 0;
+}
+
+.page02_text_h2.fade_in
+{
+	transform: translateX(0px);
+	opacity: 1;
+}
+
+.page02_text_p
+{
+	font-size: 14px;
+	transform: translateX(-10px);
+	transition: all 1s ease-out;
+	opacity: 0;
+	transition-delay: 0.5s;
+}
+
+.page02_text_p.p_fade
+{
+	transform: translateX(0px);
+	opacity: 1;
+}
+
+
+
+.title03
+{
+	line-height: 30px;
+	text-align: center;
+	margin: -5px 0px;
+	padding: 20px 0px;
+	position: relative;
+	z-index: 10;
+	width: 100%;
+	height: 500px;
+	background-color:#390809;
+}
+
+.title03 > p
+{
+	padding: 180px 10px;
+	font-size: 18px;
+	color:antiquewhite;
+}
+
+
+.page03_bg
+{
+	position: absolute;
+	width: 100%;
+}
+
+#page03_behind_moun
+{
+	position: absolute;
+	width: 100%;
+}
+
+#page03_text_div
+{
+	z-index: 100;
+	position: absolute;
+	left: 50%;
+	width: 40%;
+	margin-top: 5%;
+	color:antiquewhite;
+}
+	
+.page03_text_h2
+{
+	color:antiquewhite;
+	font-size: 20px;
+	transform: translateX(-10px);
+	transition: all 1s ease-out;
+	opacity: 0;
+
+}
+	
+.page03_text_p
+{
+	color:antiquewhite;
+	font-size: 14px;
+	transform: translateX(-10px);
+	transition: all 1s ease-out;
+	opacity: 0;
+	transition-delay: 0.5s;	
+}
+
+.page03_text_h2.fade_in
+{
+	transform: translateX(0px);
+	opacity: 1;
+}
+
+.page03_text_p.p_fade
+{
+	transform: translateX(0px);
+	opacity: 1;
+}
+
+
+#page03_anime
+{
+	position:relative;
+	width: 100%;
+}
+
+.foot
+{
+	font-size: 14px;
+	color: antiquewhite;
+	text-align: center;
+	margin: -5px 0px;
+	padding-top: 8px;
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background-color: #390809;
+}
+
+@media screen and (max-width:1100px)
+{
+	.index_title
+	{
+		font-size:22px;
+		position: absolute;
+		z-index: 10;
+		left: 45%;
+		top:30%;
+
+	}
+	
+	.title01
+	{
+		line-height: 50px;
+		height: 300px;
+	}
+	
+	.title01 > p
+	{
+		padding-top: 80px;
+		font-size: 14px;
+	}
+	
+	#page01_text_div
+	{
+		width: 48%;
+		padding: 0px 0px;
+	}
+
+	.page01_text_h2
+	{
+		font-size: 14px;
+	}
+	
+	.page01_text_p
+	{
+		line-height: 13px;
+		font-size: 10px;
+	}
+
+	
+	.title02
+	{
+		line-height: 50px;
+		height: 300px;
+	}
+	
+	.title02 > p
+	{
+		padding-top: 80px;
+		font-size: 14px;
+	}
+	
+	#page02_text_div
+	{
+		width: 48%;
+		padding: 0px;
+	}
+	
+	.page02_text_h2
+	{
+		font-size: 14px;
+	}
+	
+	.page02_text_p
+	{
+		line-height: 13px;
+		font-size: 10px;
+	}
+	
+	.title03
+	{
+		line-height: 50px;
+		height: 300px;
+	}
+	
+	.title03 > p
+	{
+		padding-top: 40px;
+		font-size: 14px;
+	}
+	
+	#page03_text_div
+	{
+		width: 48%;
+		padding: 0px;
+	}
+	
+	.page03_text_h2
+	{
+		font-size: 14px;
+	}
+	
+	.page03_text_p
+	{
+		line-height: 13px;
+		font-size: 10px;
+	}
+
+	.foot
+	{
+		font-size: 10px;
+		padding-top: 50px;
+		height: 100px;
+	}
+	
+	
+}
+
+
+@media screen and (max-width:700px)
+{
+	.index_title > h1
+	{
+		font-size: 18px;
+	}
+	
+	.title01 > p
+	{
+		padding-top: 50px;
+		font-size: 10px;
+	}
+	
+	.title01
+	{
+		line-height: 20px;
+		height: 200px;
+	}
+	
+	#page01_text_div
+	{
+		margin-top: 5%;
+		width: 80%;
+		height: 150px;
+		overflow-y: scroll;
+		padding: 0px 10px 5px 10px;
+		left: 10%;
+		background-color: antiquewhite;
+		opacity: 0;
+	}
+
+	.page01_text_h2
+	{
+		font-size: 10px;
+	}
+	
+	.page01_text_p
+	{
+		font-size: 6px;
+	}
+	
+	.page01_text_btn , .page02_text_btn , .page03_text_btn
+	{
+		display:block;
+	}
+	
+	.title02
+	{
+		line-height: 20px;
+		height: 200px;
+	}
+	
+	.title02 > p
+	{
+		padding-top: 60px;
+		font-size: 10px;
+	}
+	
+	#page02_text_div
+	{
+		margin-top:5%;
+		width: 80%;
+		height: 150px;
+		overflow-y: scroll;
+		padding: 0px 10px 5px 10px;
+		left: 10%;
+		background-color:sienna;
+		opacity: 0;
+	}
+	
+	.page02_text_h2
+	{
+		color: #390809;
+		font-size: 10px;
+	}
+	
+	.page02_text_p
+	{
+		color: #390809;
+		font-size: 6px;
+	}
+	
+	.title03
+	{
+		line-height: 20px;
+		height: 200px;
+	}
+	
+	.title03 > p
+	{
+		padding-top: 40px;
+		font-size: 10px;
+	}
+	
+	#page03_text_div
+	{
+		width: 80%;
+		padding: 0px 10px 5px 10px;
+		left: 10%;
+		height: 150px;
+		overflow-y: scroll;
+		background-color:sienna;
+		opacity: 0;
+	}
+	
+	.page03_text_h2
+	{
+		color: #390809;
+		font-size: 10px;
+	}
+	
+	.page03_text_p
+	{
+		color: #390809;
+		font-size: 6px;
+	}
+	
+	
+	.foot
+	{
+		font-size: 8px;
+		padding-top: 100px;
+		height: 200px;
+	}
+	
+}
+
+
